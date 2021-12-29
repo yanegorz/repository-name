@@ -1,5 +1,7 @@
 *wip*
-*.war
+*.war*
+
 *.xz
 *.tar
 *.zip
+
