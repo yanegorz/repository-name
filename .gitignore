@@ -2,5 +2,8 @@
 *.war
 *.xz
 *.tar
-
-
+*.txt
+.obsidian
+*.md
+*.png
+*.pdf
