@@ -7,3 +7,5 @@
 *.md
 *.png
 *.pdf
+*.properties
+*.crc
