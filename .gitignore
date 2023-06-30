@@ -1,5 +1,6 @@
 *wip*
 *.war
+*.war.md5
 *.xz
 *.tar
 *.txt
@@ -9,3 +10,4 @@
 *.pdf
 *.properties
 *.crc
+*.zip
