@@ -11,3 +11,5 @@
 *.properties
 *.crc
 *.zip
+*tmp*
+*TMP*
