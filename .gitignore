@@ -5,7 +5,6 @@
 *.tar
 *.zip
 .obsidian
-*.md
 *.png
 *.pdf
 *.properties
