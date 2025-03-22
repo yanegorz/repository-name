@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-#? Order of properties keys are from  combined properties
+#? Order of properties keys are from  'combined properties'
 #?
 for keyname in \
     cas.tgc.crypto.signing.key \
