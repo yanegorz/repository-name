@@ -42,9 +42,9 @@
 1. Przekopiować definicje serwisów zarejestrowanych w **CAS** do katalogu   ``/etc/cas/services``.
 2. Uruchomić poniższe polecenia, w celu wymaganej aktualizacji definicji serwisów:
 	```bash
-	grep RegisteredService *
-	sed -i 's/org.apereo.cas.support.saml.services.SamlRegisteredService/org.apereo.cas.services.CasRegisteredService/g' *.json
-	grep RegisteredService *
+	grep 'RegExRegisteredService"' *
+	sed -i 's/org.apereo.cas.services.RegexRegisteredService"/org.apereo.cas.services.CasRegisteredService"/g' *.json
+	grep 'RegExRegisteredService"' *
 	```
 
 
@@ -107,11 +107,11 @@
 2. Wykonać zmianę ustawień CAS w konfiguracji na CAS-ConfigServer dla połączeń JDBC do baz danych na poniższą:
 	```properties
 	cas.audit.jdbc.ddl-auto=validate
-	
+
 	cas.events.jpa.ddl-auto=validate
-	
+
 	cas.authn.throttle.jdbc.ddl-auto=validate
-	
+
 	cas.authn.mfa.trusted.jpa.ddl-auto=validate
 	```
 
