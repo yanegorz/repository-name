@@ -7,11 +7,13 @@
 .obsidian
 *.png
 *.pdf
-*.properties
+#*.properties
 *.txt
-*.xml
+#*.xml
 *.crc
 *tmp*
 *TMP*
 *--Exclude
 *--Exclude.*
+*.ini
+*.ico

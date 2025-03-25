@@ -72,13 +72,3 @@ CATALINA_OPTS+=" -DcasClusterInstanceName=192-168-35-${HOSTNAME%.*.*}"
 CATALINA_OPTS+=" -DcasClusterMembers=192.168.35.11,192.168.35.12,192.168.35.13"
 CATALINA_OPTS+=" -DcasClusterCPMemberCount=0"
 
-
-##********************************************
-##******* Mfa Trusted Device-Fingerprint *****
-##*
-#@      variable-name:                      default:            property-key:
-#?      ${casMfaTrustedDeviceCookieSuffix}  TRUSTED             cas.authn.mfa.trusted.device-fingerprint.cookie.name
-#@
-CATALINA_OPTS+=" -DcasMfaTrustedDeviceCookieSuffix=trust5H1"
-
-
