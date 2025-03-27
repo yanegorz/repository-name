@@ -17,7 +17,7 @@ def run(Object[] args) {
 
     logger.debug("sms-provider-groovy:: soapClient [{}]", soapClient)
 
-    def smsHeaderConsumerSystem  = 'CAS_DEV'
+    def smsHeaderConsumerSystem  = 'CAS_TST'
     def smsHeaderConsumerId      = 'CAS'
     def smsHeaderConsumerUnitId  = 1             //? Optional
     def smsHeaderExternalId      = 1             //? Optional
