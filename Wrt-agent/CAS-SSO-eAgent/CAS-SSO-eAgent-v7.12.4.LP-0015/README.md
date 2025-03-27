@@ -114,4 +114,3 @@
 
 	cas.authn.mfa.trusted.jpa.ddl-auto=validate
 	```
-
